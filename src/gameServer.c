@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 		
 		if (player0score > player1score) {
 			// Player 0 won the game
-		} else if (player0score < player1score) {
+		} else if (player0score > player1score) {
 			// Player 1 won the game
 		} else {
 			// Tied Game
